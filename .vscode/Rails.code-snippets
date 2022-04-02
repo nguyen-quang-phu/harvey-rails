@@ -1,0 +1,10 @@
+{
+  "Http Get": {
+    "prefix": "vget",
+    "scope": "ruby",
+    "body": [
+      "get \"${1:controller}\", to: \"$1#${2:action}\""
+    ],
+    "description": "Http Get"
+  },
+}
